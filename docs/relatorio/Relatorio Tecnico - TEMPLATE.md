@@ -1,6 +1,6 @@
 # Informações do Projeto
 
-`Problemas de Mobilidade urbana`
+`VanBora`
 
 `Engenharia de Software`
 
@@ -10,7 +10,6 @@
 > - Rafael Moreira Barbosa Baptista
 > - Artur Ribeiro Carmo
 > - Bruno Guimarães de Almeida Dias Duarte
-> - Raphael Masato Hirashima Bernardes
 
 # Estrutura do Documento
 
@@ -52,24 +51,10 @@
 ## Problema
 
 > De acordo com as nossas averiguações, observamos que, dentre os alunos de faculdades e de escolas, há a necessidade de uma forma prática e segura de se encontrar empresas que trabalhem com o transporte de pessoas a preços que sejam acessíveis.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
 > Com a participação de empresas de transporte e prfisionais autônomos, desejamos criar uma aplicação que possa mostrar para os usuários as opções de serviços prestados, a qualidade do serviço (de acordo com avaliações de usuários)
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -91,26 +76,11 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> Como público alvo temos os alunos tanto de faculdades, que possuem facilidade de usar aplicações de transporte, quanto alunos de escolas que necessitam de formas de transporte de qualidade e com segurança.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Para a construção da VanBora
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
