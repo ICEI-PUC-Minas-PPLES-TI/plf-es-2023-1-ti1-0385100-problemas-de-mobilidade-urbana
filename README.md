@@ -7,7 +7,6 @@ Muitos pais de alunos de escolas e alunos de faculdades possuem dificuldade de e
 * Rafael Moreira Barbosa Baptista
 * Artur Ribeiro Carmo
 * Bruno Duarte
-* Raphael Masato Hirashima Bernardes
 
 ## Professores responsáveis
 
