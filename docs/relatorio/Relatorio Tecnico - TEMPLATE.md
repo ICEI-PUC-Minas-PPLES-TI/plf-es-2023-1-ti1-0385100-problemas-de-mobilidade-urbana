@@ -58,21 +58,7 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> 
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> Escolhemos trabalhar com o assunto de transporte universitário e escolar pois, ao longo de nossas vidas, dependemos sempre de empresas de transporte para nos levar às nossas intituições de ensino. Com o começo da vida universitária, nos vimos em situações complicadas, sem saber de empresas confiáveis e seguras para realizar o traslado de casa a faculdade e vice-versa. Juntamente a isso, um integrante do grupo achou interesante a oportunidade de poder lidar com um algorítimo de otimização de rotas e todos pensaram ser interesante ajudar os colegas com um problema tão comum na faculdade.
 
 ## Público-Alvo
 
@@ -80,42 +66,15 @@
  
 # Especificações do Projeto
 
-> Para a construção da VanBora, decidimos criar uma aplicação web que possa comunicar motoristas com possíveis usuários de seus serviços
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+> Para a construção da VanBora, utilizamos uma série de perguntas que nos ajudariam a entender os problemas vivênciados pelos usuários da nossa aplicação. Com esse entendimento adiquirido pudemos começar a formular a base de como as coisas funcionariam no nosso aplicativo.
 
 ## Personas, Empatia e Proposta de Valor
 
 ![João Pedro](images/JoaoPedro.png)
+
 ![Valdette](images/Valdette.png)
 
-> Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
-> mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
-> e de forma personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+![Francisco](images/Francisco.png)
 
 
 ## Histórias de Usuários
@@ -124,9 +83,9 @@ Com base na análise das personas formamos as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`     | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |-------------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema       | Ir para a faculdade de forma rápida e segura **sem gastar muito** | Para não chegar atrasada nas aulas e ajudar a achar vans |
+|Usuário do sistema       | Ir para a faculdade de forma rápida e segura **sem gastar muito** | Para não chegar atrasada nas aulas |
 |Motorista                | Que o site decida a melhor rota para mim e me diga o nome dos passageiros que estou buscando | Poder facilitar o processo de criação das rotas e a praticidade de transporte dos passageiros |
-|Desenvolvedor            | Preciso ser capaz de monitorar as rotas dos motoristas e garantir que, se houver algum atrazo, os usuários sejam notificados|  |
+|Desenvolvedor            | Preciso ser capaz de monitorar as rotas dos motoristas e garantir que, se houver algum atrazo, os usuários sejam notificados | Ajudar os usuários a se comunicarem mais eficientemente com os prestadores de serviços de transporte |
 
 ## Requisitos
 
@@ -141,8 +100,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Forma de comunicar com o motorista                                                    | BAIXA      |
 |RF-004| Forma de se cadastrar na plataforma para manter os dados das suas rotas/motorista     | ALTA       |
 |RF-005| Mostrar um mapa para o usuário e para o motorista                                     | ALTA       |
-|RF-006| ||
-
 
 ### Requisitos não Funcionais
 
@@ -152,7 +109,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A posição do motorista deve ser atualizada em tempo real          | MÉDIA |
 |RNF-003| Devemos exibir o mapa através de uma API de mapas                 | ALTA  |
 |RNF-004| O sistema deve processar a rota mais eficiente para o motorista   | ALTA  |
-|RNF-005| ||
 
 ## Restrições
 
@@ -189,103 +145,48 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-> a metodologia utilizada pelo grupo foi o Scrum, diante isso realizaremos reuniões semanais para saber como está o andamento do projeto. Todos do grupo participaram ativamente do processo de Design Thinking pela plataforma Miro, desde a Matriz de Alinhamento CSD até a criação das personas. Também, fizemos o Brainstorming afim de propormos soluções para nosso problema. Depois que as soluções foram propostas, analizamos cada História de Usuário e unimos as ideias em um só projeto, afim de que todos os Requisistos Funcionais e Não Funcionais fossem atentidos. A partir disso, realizamos a concepção do wireframe do projeto. Realizamos a documentação do projeto pelo Github e a apresentação 
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+> A metodologia utilizada pelo grupo foi o Scrum, diante isso realizaremos reuniões semanais para saber como está o andamento do projeto. Todos do grupo participaram ativamente do processo de Design Thinking pela plataforma Miro, desde a Matriz de Alinhamento CSD até a criação das personas. Também, fizemos o Brainstorming afim de propormos soluções para nosso problema. Depois que as soluções foram propostas, analizamos cada História de Usuário e unimos as ideias em um só projeto, afim de que todos os Requisistos Funcionais e Não Funcionais fossem atentidos. A partir disso, realizamos a concepção do wireframe do projeto. Realizamos a documentação do projeto pelo Github e a apresentação por powerpoint
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+Cada integrante do time deverá realizar as tarefas designadas para cada sprint
 
 ## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVMY8ZlMk= | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti1-0385100-problemas-de-mobilidade-urbana.git | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/6O7ioPlC5YJ2miFkZGBhHm/Untitled?node-id=0%3A1&t=iElEYs4dYBydv00M-1 | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+|Protótipo Interativo | Figma | https://www.figma.com/file/6O7ioPlC5YJ2miFkZGBhHm/Untitled?node-id=0%3A1&t=iElEYs4dYBydv00M-1 | 
+|Gestor de SCRUM | Trello | https://trello.com/invite/b/1vPLzzaZ/ATTI938ded332e35fcb6f15b84daa32d19f0FEB80672/vanbora |
+|Editor de código| VS Code |
+|Ferramentas de comunicação|Whatsapp e Discord |
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `upstream`.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+O projeto segue a seguinte convenção para o nome de branchs:
+
+- `master`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `feature-test`: versão em testes do software
+- `dev`: versão de desenvolvimento do software
+- `old`: versão antiga do software como fallback
+
+Quanto à gerência de issues, o projeto adota a seguinte convenção para
+etiquetas:
+
+- `bugfix`: uma funcionalidade encontra-se com problemas
+- `enhancement`: uma funcionalidade precisa ser melhorada
+- `feature`: uma nova funcionalidade precisa ser introduzida
+
+**Exemplo - GitHub Feature Branch Workflow**:
+
+![Exemplo de Wireframe](images/WorkflowGit.png)
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
