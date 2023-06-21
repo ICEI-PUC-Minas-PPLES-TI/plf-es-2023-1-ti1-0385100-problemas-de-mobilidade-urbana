@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Motoristas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Motoristas</h1>
+    
+    <form id="motoristaForm">
+      <div class="form-group">
+        <label for="nome">Nome do Motorista:</label>
+        <input type="text" class="form-control" id="nome" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="modelo">Modelo da Van:</label>
+        <input type="text" class="form-control" id="modelo" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="condicao">Condição da Van:</label>
+        <input type="text" class="form-control" id="condicao" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="capacidade">Capacidade da Van:</label>
+        <input type="number" class="form-control" id="capacidade" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="preco">Preço do Serviço:</label>
+        <input type="number" step="0.01" class="form-control" id="preco" required>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Salvar</button>
+      <button type="button" class="btn btn-danger" id="limparLocalStorage">Limpar Local Storage</button>
+      <button type="button" class="btn btn-warning" id="modificarLocalStorage">Modificar Dados do Local Storage</button>
+    </form>
+    
+    <div id="motoristasList">
+      <h2>Motoristas Cadastrados:</h2>
+    </div>
+  </div>
+
+</body>
+</html>

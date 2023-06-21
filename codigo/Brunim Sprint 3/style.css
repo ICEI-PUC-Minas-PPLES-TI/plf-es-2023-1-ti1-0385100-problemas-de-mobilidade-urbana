@@ -1,0 +1,62 @@
+body {
+  background-color: #303030;
+  color: #fff;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: #e0e0e0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #303030;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  color: #303030;
+}
+
+input[type="text"],
+input[type="number"] {
+  background-color: #fff;
+  color: #303030;
+}
+
+.btn-primary {
+  background-color: #303030;
+  border-color: #303030;
+}
+
+.btn-primary:hover {
+  background-color: #101010;
+  border-color: #101010;
+}
+
+.btn-danger,
+.btn-warning {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.btn-danger:hover,
+.btn-warning:hover {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+#motoristasList {
+  margin-top: 30px;
+}
+
+.motorista-card {
+  background-color: #fff;
+  color: #303030;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+  
+  

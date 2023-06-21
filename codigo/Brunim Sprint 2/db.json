@@ -1,0 +1,11 @@
+{"cadastro de clientes ":[{
+    "id":1,
+    "nome": "José da Silva Carvalho",
+    "CEP":"20371020",
+    "cidade":"Contagem",
+    "bairro":"Eldorado",
+    "rua":"Rua Ingás,55",
+    "telefone":"31-992345678"
+}
+]
+}
