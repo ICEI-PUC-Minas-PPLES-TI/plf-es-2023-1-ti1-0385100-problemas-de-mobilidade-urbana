@@ -1,0 +1,75 @@
+{
+    "motoristas": [
+        {
+            "id": 1,
+            "nome": "Jose da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        },
+        {
+            "id": 2,
+            "nome": "João da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        },
+        {
+            "id": 3,
+            "nome": "Maria da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        },
+        {
+            "id": 4,
+            "nome": "Joana da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        },
+        {
+            "id": 5,
+            "nome": "José da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        },
+        {
+            "id": 6,
+            "nome": "João da Silva",
+            "modelo_van": "Mercedes-Benz 413 Van 19+1",
+            "condicao_van": "Pneus em bom estado, ar condicionado, bancos reclináveis, cortinas, poltronas reclináveis, cinto de segurança",
+            "capacidade_van": 19,
+            "preco_servico": "220.00",
+            "destino": "PUC Minas - Praça da Liberdade",
+            "avaliação": 4.5
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "nome": "José da Silva Carvalho",
+            "CEP": 20371020,
+            "cidade": "Contagem",
+            "bairro": "Eldorado",
+            "rua": "Rua Ingás, 55",
+            "telefone": "(31)99234-5678"
+        }
+    ]
+}

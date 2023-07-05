@@ -1,9 +1,0 @@
-{
-  "motorista": {
-    "nome": "João Silva",
-    "modelo_van": "Ford Transit",
-    "condicao_van": "Ótima",
-    "capacidade_van": 15,
-    "preco_servico": 150.00
-  }
-}

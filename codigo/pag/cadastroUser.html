@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Cadastro de Usuário</title>
 	<style>
-	body {
-			background-color:whitesmoke;
+		body {
+			background-color: whitesmoke;
 		}
+
 		h1 {
 			color: black;
 			text-align: center;
 		}
+
 		form {
 			background-color: white;
 			padding: 20px;
@@ -18,12 +21,16 @@
 			width: 50%;
 			margin: 0 auto;
 		}
+
 		label {
 			display: block;
 			margin-top: 10px;
 			color: black;
 		}
-		input[type="text"], input[type="tel"] {
+
+		input[type="text"],
+		input[type="tel"],
+		input[type="password"] {
 			width: 100%;
 			padding: 10px;
 			margin-top: 5px;
@@ -31,6 +38,7 @@
 			border-radius: 5px;
 			border: none;
 		}
+
 		input[type="submit"] {
 			background-color: black;
 			color: white;
@@ -40,12 +48,14 @@
 			cursor: pointer;
 			width: 100%;
 		}
+
 		input[type="submit"]:hover {
 			background-color: #333
 		}
 	</style>
 
 </head>
+
 <body>
 	<h1>Cadastro de Usuário</h1>
 	<form id="formulario">
@@ -67,11 +77,12 @@
 		<label for="telefone">Telefone:</label>
 		<input type="tel" id="telefone" name="telefone" required>
 
-		<input type="submit" value="Cadastrar">
+		<label for="senha">Senha:</label>
+		<input type="password" id="senha" name="senha" required>
 
+		<input type="submit" value="Cadastrar">
 	</form>
-	<button id="apagarLocalStorage">Apagar Dados</button>
-	<script src="../app.js"></script>
+	<script src="./assets/JS/cadastroUser.js"></script>
 </body>
 
 </html>
