@@ -6,10 +6,10 @@
 
 ## Participantes
 
-> Os membros do grupo são: 
-> - Rafael Moreira Barbosa Baptista
-> - Artur Ribeiro Carmo
-> - Bruno Guimarães de Almeida Dias Duarte
+> Os membros do grupo são:
+>
+> * Rafael Moreira Barbosa Baptista
+> * Bruno Guimarães de Almeida Dias Duarte
 
 # Estrutura do Documento
 
@@ -35,16 +35,9 @@
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
-
 
 # Introdução
 
@@ -63,7 +56,7 @@
 ## Público-Alvo
 
 > Como público alvo temos os alunos tanto de faculdades, que possuem facilidade de usar aplicações de transporte, quanto alunos de escolas que necessitam de formas de transporte de qualidade e com segurança.
- 
+
 # Especificações do Projeto
 
 > Para a construção da VanBora, utilizamos uma série de perguntas que nos ajudariam a entender os problemas vivênciados pelos usuários da nossa aplicação. Com esse entendimento adiquirido pudemos começar a formular a base de como as coisas funcionariam no nosso aplicativo.
@@ -75,7 +68,6 @@
 ![Valdette](images/Valdette.png)
 
 ![Francisco](images/Francisco.png)
-
 
 ## Histórias de Usuários
 
@@ -95,8 +87,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                | Prioridade |
 |------|---------------------------------------------------------------------------------------|------------|
-|RF-001| Permitir que o motorista registre sua rota no aplicativo                              | ALTA       | 
-|RF-002| Possuir uma forma de manter avaliações de usuários a cerca do serviço disponibilizado | MÉDIA      | 
+|RF-001| Permitir que o motorista registre sua rota no aplicativo                              | ALTA       |
+|RF-002| Possuir uma forma de manter avaliações de usuários a cerca do serviço disponibilizado | MÉDIA      |
 |RF-003| Forma de comunicar com o motorista                                                    | BAIXA      |
 |RF-004| Forma de se cadastrar na plataforma para manter os dados das suas rotas/motorista     | ALTA       |
 |RF-005| Mostrar um mapa para o usuário e para o motorista                                     | ALTA       |
@@ -155,11 +147,11 @@ Cada integrante do time deverá realizar as tarefas designadas para cada sprint
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVMY8ZlMk= | 
-|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti1-0385100-problemas-de-mobilidade-urbana.git | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | Figma | https://www.figma.com/file/6O7ioPlC5YJ2miFkZGBhHm/Untitled?node-id=0%3A1&t=iElEYs4dYBydv00M-1 | 
-|Gestor de SCRUM | Trello | https://trello.com/invite/b/1vPLzzaZ/ATTI938ded332e35fcb6f15b84daa32d19f0FEB80672/vanbora |
+|Processo de Design Thinkgin  | Miro |  <https://miro.com/app/board/uXjVMY8ZlMk=> |
+|Repositório de código | GitHub | <https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti1-0385100-problemas-de-mobilidade-urbana.git> |
+|Hospedagem do site | Heroku |  <https://XXXXXXX.herokuapp.com> |
+|Protótipo Interativo | Figma | <https://www.figma.com/file/6O7ioPlC5YJ2miFkZGBhHm/Untitled?node-id=0%3A1&t=iElEYs4dYBydv00M-1> |
+|Gestor de SCRUM | Trello | <https://trello.com/invite/b/1vPLzzaZ/ATTI938ded332e35fcb6f15b84daa32d19f0FEB80672/vanbora> |
 |Editor de código| VS Code |
 |Ferramentas de comunicação|Whatsapp e Discord |
 
@@ -188,91 +180,32 @@ etiquetas:
 
 ![Exemplo de Wireframe](images/WorkflowGit.png)
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
 # Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
-## Arquitetura da solução
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+> Para o desenvolvimento da aplicação, foram utilizados o Visual Studio Code e o Replit como IDEs.
+> Nossa aplicação foi desenvolvida com o uso de HTML, Javascript e CSS, juntamente do framework bootstrap
+> e utilizando a API de mapas do Mapbox para a apresentação do mapa na página principal da aplicação.
+![Userflow do site](images/UserFlow.jpg)
+> # Tela de login
+> Na tela de login, os usuários e motoristas tem a opção de fazer o login com sua credecial já
+> cadastrada, ou caso não a possua, tem a opção de criar sua conta de acordo com sua necessidade.
+> # Tela de cadastro do Usuário
+> Na tela de cadastro, o usuário poderá cadastrar suas informações mais importantes para que o
+> sistema possa apresentar os motoristas mais viáveis para o seu deslocamento na tela principal.
+> # Tela de cadastro do Motorista
+> Na tela de cadastro, o motorista informará suas informações para que o sistema possa mostrá-lo
+> na tela principal de acordo com a necessidade dos usuários.
+> # Tela Principal
+> Nessa tela, o usuário poderá ver os motoristas que possuem como destino final seu destino para
+> que possa, de acordo com a sua discreção baseada nas avaliações e nas condições do veículo,
+> qual motorista proverá o melhor serviço.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> - [MapBox API](https://docs.mapbox.com/api/overview/)
+> - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+> - [Jquery API](https://api.jquery.com)
