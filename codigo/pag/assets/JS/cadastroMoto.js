@@ -43,9 +43,6 @@ document.getElementById('modificarLocalStorage').addEventListener('click', funct
   updateMotoristasList();
 
   alert('Dados do Local Storage modificados!');
-});
 
-const btnIndex = document.getElementById('index')
-btnIndex.addEventListener('click', function () {
   window.location.href = "index.html";
 });
