@@ -1,30 +1,22 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: VanBora
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Duarte
+    given-names: Bruno
+  - family-names: Moreira Barbosa Baptista
+    given-names: Rafael
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
 keywords:
-  - 
-  - 
+  - mobilidade urbana
+  - mapas
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
